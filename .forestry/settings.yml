@@ -6,12 +6,12 @@ webhook_url:
 sections:
 - type: document
   path: portfolio/index.md
-  label: Homepage
+  label: Главная
   templates:
   - settings
 - type: directory
   path: portfolio/works
-  label: Works
+  label: Портфолио
   create: all
   match: "**/*"
   templates:
